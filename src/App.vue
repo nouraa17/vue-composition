@@ -2,10 +2,24 @@
   <div>
     <Data></Data>
 
+    <br><br>
+
     <DemoOne></DemoOne>
+    <br>
     <DemoTwo></DemoTwo>
 
+    <br><br>
+
     <Methods></Methods>
+
+    <br><br>
+
+    <VModel></VModel>
+
+    <br><br>
+
+    <Computed></Computed>
+
   </div>
 </template>
 
@@ -14,6 +28,9 @@ import Data from "@/components/Data.vue";
 import DemoOne from "@/components/DemoOne.vue";
 import DemoTwo from "@/components/DemoTwo.vue";
 import Methods from "@/components/Methods.vue";
+import VModel from "@/components/VModel.vue";
+import Computed from "@/components/Computed.vue";
+
 export default {
   name: 'App',
   components: {
@@ -21,6 +38,8 @@ export default {
     DemoOne,
     DemoTwo,
     Methods,
+    VModel,
+    Computed,
 
   }
 }
