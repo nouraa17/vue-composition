@@ -20,6 +20,23 @@
 
     <Computed></Computed>
 
+    <br><br>
+
+    <Watch></Watch>
+
+    <br><br>
+
+    <ProvideInject></ProvideInject>
+
+    <hr>
+    <LifecycleO></LifecycleO>
+
+    <hr>
+    <LifecycleC></LifecycleC>
+
+    <hr>
+    <TemplateRef></TemplateRef>
+
   </div>
 </template>
 
@@ -30,6 +47,11 @@ import DemoTwo from "@/components/DemoTwo.vue";
 import Methods from "@/components/Methods.vue";
 import VModel from "@/components/VModel.vue";
 import Computed from "@/components/Computed.vue";
+import Watch from "@/components/Watch.vue";
+import ProvideInject from "@/components/ProvideInject.vue";
+import LifecycleO from "@/components/LifecycleO.vue";
+import LifecycleC from "@/components/LifecycleC.vue";
+import TemplateRef from "@/components/TemplateRef.vue";
 
 export default {
   name: 'App',
@@ -40,7 +62,11 @@ export default {
     Methods,
     VModel,
     Computed,
-
+    Watch,
+    ProvideInject,
+    LifecycleO,
+    LifecycleC,
+    TemplateRef,
   }
 }
 </script>
