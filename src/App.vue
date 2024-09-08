@@ -37,6 +37,16 @@
     <hr>
     <TemplateRef></TemplateRef>
 
+    <hr>
+    <Person></Person>
+
+    <br><br>
+
+    <hr>
+
+    <ClickCounter></ClickCounter>
+    <br>
+    <HoverCounter></HoverCounter>
   </div>
 </template>
 
@@ -52,7 +62,9 @@ import ProvideInject from "@/components/ProvideInject.vue";
 import LifecycleO from "@/components/LifecycleO.vue";
 import LifecycleC from "@/components/LifecycleC.vue";
 import TemplateRef from "@/components/TemplateRef.vue";
-
+import Person from "@/components/Person.vue";
+import ClickCounter from "@/components/ClickCounter.vue";
+import HoverCounter from "@/components/HoverCounter.vue";
 export default {
   name: 'App',
   components: {
@@ -67,6 +79,9 @@ export default {
     LifecycleO,
     LifecycleC,
     TemplateRef,
+    Person,
+    ClickCounter,
+    HoverCounter,
   }
 }
 </script>
